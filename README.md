@@ -37,6 +37,9 @@ The Restaurant Review Service is a web application that enables users to review 
 
 ## Technologies Used
 - Java
+- Docker
+- Postgresql
+- Kafka
 - Spring Framework (Spring Boot, Spring Data)
 - Hibernate
 - Apache Solr
@@ -44,16 +47,6 @@ The Restaurant Review Service is a web application that enables users to review 
 - Swagger for API documentation
 - Logging mechanism implemented
 - Exception handling design pattern utilized
-
-## Installation
-1. Clone the repository.
-2. Install Java, Apache Solr, and Maven if not already installed.
-3. Build the project using Maven: `mvn clean install`.
-4. Run the application: `java -jar target/restaurant-review-service.jar`.
-
-## Usage
-1. Access the API documentation through Swagger UI: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
-2. 
 
 ### ER Diagram of Services
 
