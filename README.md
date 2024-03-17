@@ -10,39 +10,50 @@
 The subject of this project is java and spring boot. It contains user comments for users and restaurants, restaurant definitions and users' locations.
 It is a project in which 3 restaurant suggestions are presented, taking into account the score of the restaurant and the restaurant.
 
-### System Requirements and System Acceptances
+## Overview
+The Restaurant Review Service is a web application that enables users to review restaurants and receive personalized suggestions based on their location and restaurant preferences.
 
-1. The service that contains user comments for users and restaurants
-   create.
-   ● When registering a user, latitude and longitude are entered as well as values such as name and surname.
-   values must also be entered.
-   ● For comments, the score must be between 1 and 5.
-   ● Users should be able to be registered, deleted and their information updated.
-   ● Comments should be able to be saved, deleted, text and score updated.
-   to. Additionally, an API that provides suggestions to the user is desired. This API shows users' locations
-   and considering the restaurant's score, it will offer 3 restaurant suggestions.
-   ● A restaurant should not be recommended more than 10 km away.
-   ● Restaurants that are less distant should be evaluated according to their distance.
-   ● The weight of the restaurant score is 70% and the weight of the proximity score is 30%.
-2. Create the service with restaurant descriptions.
-   ● When registering a restaurant, latitude and longitude values are also included in addition to the necessary information.
-   must be entered.
-   ● Users should be able to be registered, deleted and their information updated.
-   ● All restaurants should be listed.
-   ● Restaurant data should be kept on Apache Solr, and queries should also be sent to Solr.
-3. You only need to write unit&integration tests for the 1st project.
-   EXPECTED:
-   ● Final Paper  All APIs must be working as specified.
-   ● APIs must be written in accordance with best practices. (correct paths,
-   versioning, validations, etc.)
-   ● Paying attention to code quality and structure, ensuring that Spring and Hibernate are used correctly
-   usage and compliance with best practices.
-   ● Writing Unit & Integration tests and ensuring that all tests are running.
-   ● Documentation (swagger openapi etc.)
-   ● Establishing the logging mechanism
-   ● Use of exception handling design pattern
-   ● Frontend (optional)
-   ● Writing a Readme
+## Features
+1. User Registration:
+   - Users can register by providing their name, surname, latitude, longitude, and other necessary information.
+   - Users can be registered, deleted, and their information can be updated.
+
+2. Restaurant Registration:
+   - Restaurants can be registered by providing necessary information including latitude and longitude.
+   - Restaurant data is stored in Apache Solr.
+
+3. Commenting System:
+   - Users can leave comments on restaurants with scores ranging from 1 to 5.
+   - Comments can be saved, deleted, and updated.
+
+4. Personalized Suggestions API:
+   - An API provides users with restaurant suggestions based on their location and restaurant preferences.
+   - Suggestions consider the score of the restaurant and its proximity to the user's location.
+   - The weight of the restaurant score is 70%, and the weight of proximity score is 30%.
+
+5. Testing:
+   - Unit and integration tests are provided to ensure functionality and reliability.
+   - All APIs are tested to meet expected behavior.
+
+## Technologies Used
+- Java
+- Spring Framework (Spring Boot, Spring Data)
+- Hibernate
+- Apache Solr
+- RESTful API
+- Swagger for API documentation
+- Logging mechanism implemented
+- Exception handling design pattern utilized
+
+## Installation
+1. Clone the repository.
+2. Install Java, Apache Solr, and Maven if not already installed.
+3. Build the project using Maven: `mvn clean install`.
+4. Run the application: `java -jar target/restaurant-review-service.jar`.
+
+## Usage
+1. Access the API documentation through Swagger UI: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+2. 
 
 ### ER Diagram of Services
 
