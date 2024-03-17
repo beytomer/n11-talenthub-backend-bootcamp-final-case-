@@ -14,22 +14,22 @@ It is a project in which 3 restaurant suggestions are presented, taking into acc
 
 1. The service that contains user comments for users and restaurants
    create.
-   a. When registering a user, latitude and longitude are entered as well as values such as name and surname.
+   ● When registering a user, latitude and longitude are entered as well as values such as name and surname.
    values must also be entered.
-   b. For comments, the score must be between 1 and 5.
-   c. Users should be able to be registered, deleted and their information updated.
-   D. Comments should be able to be saved, deleted, text and score updated.
+   ● For comments, the score must be between 1 and 5.
+   ● Users should be able to be registered, deleted and their information updated.
+   ● Comments should be able to be saved, deleted, text and score updated.
    to. Additionally, an API that provides suggestions to the user is desired. This API shows users' locations
    and considering the restaurant's score, it will offer 3 restaurant suggestions.
-   I. A restaurant should not be recommended more than 10 km away.
-   ii. Restaurants that are less distant should be evaluated according to their distance.
-   iii. The weight of the restaurant score is 70% and the weight of the proximity score is 30%.
+   ● A restaurant should not be recommended more than 10 km away.
+   ● Restaurants that are less distant should be evaluated according to their distance.
+   ● The weight of the restaurant score is 70% and the weight of the proximity score is 30%.
 2. Create the service with restaurant descriptions.
-   a. When registering a restaurant, latitude and longitude values are also included in addition to the necessary information.
+   ● When registering a restaurant, latitude and longitude values are also included in addition to the necessary information.
    must be entered.
-   b. Users should be able to be registered, deleted and their information updated.
-   c. All restaurants should be listed.
-   D. Restaurant data should be kept on Apache Solr, and queries should also be sent to Solr.
+   ● Users should be able to be registered, deleted and their information updated.
+   ● All restaurants should be listed.
+   ● Restaurant data should be kept on Apache Solr, and queries should also be sent to Solr.
 3. You only need to write unit&integration tests for the 1st project.
    EXPECTED:
    ● Final Paper  All APIs must be working as specified.
