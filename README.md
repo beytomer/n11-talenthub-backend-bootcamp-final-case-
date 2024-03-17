@@ -96,7 +96,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <div align="center">
   <a href="https://www.n11.com/">
-    <img src="images/N11_logo.svg" alt="Logo" width="220" height="200">
+    <img src="images/N11_logo.png" alt="Logo" width="220" height="200">
   </a>
 
 </div>
