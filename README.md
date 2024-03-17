@@ -49,17 +49,17 @@ It is a project in which 3 restaurant suggestions are presented, taking into acc
 
 ###  Application
 
-###User Menu
+User Menu
 
 <img src="images/page1.png" alt="uml-diagram"  />
 <hr>
-###Restaurant Menu
+Restaurant Menu
 <img src="images/page2.png" alt="uml-diagram"  />
 <hr>
-###Address Menu
+Address Menu
 <img src="images/page3.png" alt="uml-diagram"  />
 <hr>
-###Review Menu
+Review Menu
 <img src="images/page4.png" alt="uml-diagram"  />
 <hr>
 
