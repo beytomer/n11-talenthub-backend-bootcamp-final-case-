@@ -1,0 +1,20 @@
+server:
+  port: 8085
+
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:29092
+      group-id: log-consumer-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  datasource:
+    url: jdbc:postgresql://localhost:5432/logger
+    username: postgres
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
