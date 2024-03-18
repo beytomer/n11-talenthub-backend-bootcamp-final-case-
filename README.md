@@ -3,12 +3,11 @@
 ## n11 TalentHub Backend Bootcamp Bitirme Projesi
 
 ### Process Chart of All Services
-<img src="images/diagram.png" alt="uml-diagram"  />
+<img src="images/diagram2.png" alt="uml-diagram"  />
 
 ### About Project
 
-The subject of this project is java and spring boot. It contains user comments for users and restaurants, restaurant definitions and users' locations.
-It is a project in which 3 restaurant suggestions are presented, taking into account the score of the restaurant and the restaurant.
+The subject of this project is Java and Spring Boot. It includes user comments about users and restaurants, restaurant descriptions, and users' locations. It is a project in which 3 restaurant suggestions are presented, taking into account the restaurant and its score. There are three services in the project, the user-review service and the restaurant service exchange information with each other through the feign client. The user service performs database operations with PostgreSql. Restaurant service performs database operations with Solr. Error and Request logs of services are recorded in PostgreSql via Kafka.
 
 ## Overview
 The Restaurant Review Service is a web application that enables users to review restaurants and receive personalized suggestions based on their location and restaurant preferences.
