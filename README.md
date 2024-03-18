@@ -3,7 +3,7 @@
 ## n11 TalentHub Backend Bootcamp Bitirme Projesi
 
 ### Process Chart of All Services
-
+<img src="images/diagram.png" alt="uml-diagram"  />
 
 ### About Project
 
