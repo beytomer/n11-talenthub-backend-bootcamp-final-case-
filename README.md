@@ -47,8 +47,6 @@ The Restaurant Review Service is a web application that enables users to review 
 - Logging mechanism implemented
 - Exception handling design pattern utilized
 
-### ER Diagram of Services
-
 
 ###  Application
 
