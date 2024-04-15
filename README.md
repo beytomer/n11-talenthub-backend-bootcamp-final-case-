@@ -46,6 +46,7 @@ The Restaurant Review Service is a web application that enables users to review 
 - Swagger for API documentation
 - Logging mechanism implemented
 - Exception handling design pattern utilized
+- JUnit and integration tests were written
 
 
 ###  Application
